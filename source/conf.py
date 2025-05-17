@@ -51,12 +51,16 @@ copyright = u'2012–2014, OpenTechSchool and contributors'
 import subprocess
 _git_version_cmd = "git log --max-count=1 --format=format:%ad --date=short"
 try:
-    version = subprocess.check_output(_git_version_cmd.split())
+    version = subprocess.run(_git_version_cmd.split(), check=True, stdout=subprocess.PIPE).stdout
+    version = version.decode('utf-8')
+    print(version)
 except (AttributeError, OSError, subprocess.CalledProcessError):
     import datetime
-    version = datetime.datetime.strftime("%Y.%m.%d")
+    today = datetime.date.today()
+    version = today.strftime("%Y.%m.%d")
 else:
     version = version.replace("-", ".")
+
 # The full version, including alpha/beta/rc tags.
 release = version
 
@@ -105,11 +109,12 @@ html_theme = 'bootstrap'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_theme_options = dict(
-        navbar_title = "Python for Beginners",
-        navbar_site_name = "Material",
-        source_link_position = "footer",
-)
+html_theme_options = {
+        "navbar_title": "Python for Beginners",
+        "navbar_site_name": "Material",
+        "source_link_position": "footer",
+        "bootstrap_version": "2"
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 import sphinx_bootstrap_theme
@@ -270,9 +275,10 @@ class Contributors(rst.Directive):
         try:
             authors = set(subprocess.check_output(self._GIT_COMMAND.split())
                 .splitlines())
-        except (AttributeError, OSError, subprocess.CalledProcessError), e:
+            authors = set( map( lambda _a : unicodedata.normalize('NFC', _a.decode('utf-8')), authors) )
+        except (AttributeError, OSError, subprocess.CalledProcessError) as e:
             import traceback; traceback.print_exc()
-            return []
+            return set({})
 
         lang = self.state.document.settings.env.config.language
 
@@ -290,10 +296,8 @@ class Contributors(rst.Directive):
 
         bullet_list = nodes.bullet_list()
         for author in sorted(authors, key=str.lower):
-            author = unicodedata.normalize('NFC', author.decode('utf-8'))
             bullet_list.append(nodes.list_item(author,
                     nodes.paragraph(author, author)))
-
         return [bullet_list]
 
 

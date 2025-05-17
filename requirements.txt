@@ -1,4 +1,7 @@
-Fabric
-Sphinx
-sphinx-intl
+Sphinx==8.1.3
+sphinx-intl==2.3.1
+docutils==0.21.2
+invoke==2.2.0
+
 -r doc-requirements.txt
+

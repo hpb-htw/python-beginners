@@ -31,9 +31,9 @@ It can be rendered to several output formats using Sphinx_. To do that, you
 need to have the following Python packages installed:
 
 - Sphinx (and its dependencies docutils and Pygments)
-- Fabric
 - sphinx-intl
 - sphinx-bootstrap-theme
+- invoke
 
 You can install these with pip using ``pip install -r requirements.txt``
 
@@ -43,25 +43,25 @@ To push / pull translations from Transifex you will need the package
 Build
 =====
 
-The fabric script ``fabfile.py`` contains tasks making the 
+The fabric script ``tasks.py`` contains tasks making the
 build process very easy.
 
 If you just want to render the HTML version, it's sufficient to run::
 
-    $ fab build:en
+    $ invoke build --language=en
 
 Replace `en` with the language you'd like to build.
 
 This will create a directory ``_build``, containing the HTML version.
 
-You can view this in a browser by running ``fab serve`` and visiting the 
+You can view this in a browser by running ``invoke serve`` and visiting the
 web address listed.
 
 Other `builders <http://sphinx.pocoo.org/builders.html#builders>`_ can be 
 passed as an argument. For instance use ``singlehtml`` to render the whole 
 tutorial into a single HTML file::
 
-    $ fab build:en,singlehtml
+    $ invoke build --language=en --target=singlehtml
 
 Translation
 ===========
@@ -74,16 +74,16 @@ You can see the project on Transifex
 After editing the tutorial, it is desirable to update sources for it.
 
 1. New translation templates (.pot) must be created, then po translation 
-   files are updated (or created for the first time) - ``fab gen_pots``
+   files are updated (or created for the first time) - ``invoke gen_pots``
 2. If you wish to upload new sources to transifex, you should use their
    cli client. ``tx push -s``.
 3. To pull down translations for a particular language, use e.g. 
    ``tx pull -l de``, for de (german) or others.
-4. ``fab build:de`` will compile po files, and build the docs for that 
+4. ``invoke build --language=de`` will compile po files, and build the docs for that
    language.
 
 It is also possible to edit and update po files manually, you can check out 
-the other fab command (``fab list``) for help with that.
+the other `invoke` command (``fab list``) for help with that.
 
 .. note:: only .po files should be committed to version control. .pot and .mo
    files are built automatically.

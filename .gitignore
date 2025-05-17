@@ -12,3 +12,5 @@ source/_locales/*/*/*.mo
 .transifexrc
 *.pot
 *.mo
+.idea
+.venv
