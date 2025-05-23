@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2012–2014, OpenTechSchool and contributors
-# This file is distributed under the same license as the Introduction to Programming with Python package.
-# 
+# This file is distributed under the same license as the Introduction to
+# Programming with Python package.
+#
 # Translators:
 # Kristian Rother <krother@academis.eu>, 2013
 # Robert Lehmann <transifex@robertlehmann.de>, 2013
@@ -10,59 +11,74 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python for beginners\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-02 06:32+1000\n"
+"POT-Creation-Date: 2025-05-21 16:33+0200\n"
 "PO-Revision-Date: 2015-10-01 20:36+0000\n"
 "Last-Translator: Matthew Iversen <matthew@opentechschool.org>\n"
-"Language-Team: German (http://www.transifex.com/opentechschool/python-for-beginners/language/de/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
+"Language-Team: German (http://www.transifex.com/opentechschool/python-"
+"for-beginners/language/de/)\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
 
-#: ../../../source/copyright.rst:2
+#: ../../source/copyright.rst:2 4c7f44eb85f44eff92a44a18af2e93ee
 msgid "License"
 msgstr "Lizenz"
 
-#: ../../../source/copyright.rst:4
+#: ../../source/copyright.rst:4 32b6d3679f5b41fba2f2bf6456bf7006
+#, fuzzy
 msgid ""
-"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 "
-"Unported License. To view a copy of this license, visit "
-"http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative "
-"Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, "
-"USA."
-msgstr "Dieses Werk steht unter einer `Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz <http://creativecommons.org/licenses/by-sa/3.0/de>`_."
+"This work is licensed under the Creative Commons Attribution-ShareAlike "
+"3.0 Unported License. To view a copy of this license, visit "
+"`<http://creativecommons.org/licenses/by-sa/3.0/>`__ or send a letter to "
+"Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
+"California, 94041, USA."
+msgstr ""
+"Dieses Werk steht unter einer `Creative Commons Namensnennung - "
+"Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz "
+"<http://creativecommons.org/licenses/by-sa/3.0/de>`_."
 
-#: ../../../source/copyright.rst:14
+#: ../../source/copyright.rst:10 ../../source/copyright.rst:12
+#: 302b491263d940caa8259eaa79dd9c23 5bfb144b61b34046840a8faa1bab7549
+msgid "cc-by-sa"
+msgstr ""
+
+#: ../../source/copyright.rst:14 74e38b886e9c49e69cda62edd88b2fc2
 msgid "Contributors"
 msgstr ""
 
-#: ../../../source/copyright.rst:16
+#: ../../source/copyright.rst:16 88f3bdda88e44bb08facd24574b7e602
 msgid ""
 "The following people have contributed to this material, in alphabetical "
 "order:"
 msgstr ""
+"Die folgenden Personen haben zu diesem Material beigetragen (in "
+"alphabetischer Reihenfolge):"
 
-#: ../../../source/copyright.rst:29
-msgid "(This list is automatically generated from our `source repository`__.)"
-msgstr ""
+#: ../../source/copyright.rst:29 8b62be7893794843b02fb65aefa70935
+#, fuzzy
+msgid "(This list is automatically generated from our `source repository`_.)"
+msgstr "(Diese Liste wird automatisch aus unserem Quellcode-Repository generiert.)"
 
-#: ../../../source/copyright.rst:33
+#: ../../source/copyright.rst:33 e5f2907deddd4881bb9ad07eddf5e4b2
 msgid "The material is legally maintained by"
-msgstr ""
+msgstr "Das Material wird rechtlich gepflegt von"
 
-#: ../../../source/copyright.rst:0
+#: ../../source/copyright.rst a89ea47deb804d9a89b588a07497340b
 msgid "OpenTechSchool e.V."
 msgstr ""
 
-#: ../../../source/copyright.rst:0
+#: ../../source/copyright.rst 20529b29e70d4d528b940cabc2753d7a
 msgid "c/o co.up"
 msgstr ""
 
-#: ../../../source/copyright.rst:0
+#: ../../source/copyright.rst d0293769641e4ac7b02928a3457fd220
 msgid "Adalbertstr. 8"
 msgstr ""
 
-#: ../../../source/copyright.rst:0
+#: ../../source/copyright.rst 629c84158573422aafc4af11c2b4b94e
 msgid "10999 Berlin, Germany"
 msgstr ""
+

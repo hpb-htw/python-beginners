@@ -74,7 +74,7 @@ You can see the project on Transifex
 After editing the tutorial, it is desirable to update sources for it.
 
 1. New translation templates (.pot) must be created, then po translation 
-   files are updated (or created for the first time) - ``invoke gen_pots``
+   files are updated (or created for the first time) - ``invoke gen-pots``
 2. If you wish to upload new sources to transifex, you should use their
    cli client. ``tx push -s``.
 3. To pull down translations for a particular language, use e.g. 

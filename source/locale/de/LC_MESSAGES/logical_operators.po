@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2012–2014, OpenTechSchool and contributors
-# This file is distributed under the same license as the Introduction to Programming with Python package.
-# 
+# This file is distributed under the same license as the Introduction to
+# Programming with Python package.
+#
 # Translators:
 # Kristian Rother <krother@academis.eu>, 2013
 # Robert Lehmann <transifex@robertlehmann.de>, 2013
@@ -11,100 +12,96 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python for beginners\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-09 11:00+1000\n"
+"POT-Creation-Date: 2025-05-21 13:50+0200\n"
 "PO-Revision-Date: 2014-02-24 23:06+0000\n"
 "Last-Translator: Robert Lehmann <transifex@robertlehmann.de>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/python-for-beginners/language/de/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
+"Language-Team: German (http://www.transifex.com/projects/p/python-for-"
+"beginners/language/de/)\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
 
-# 2f20df833f124f9c85714161761b61a0
-#: ../../../source/logical_operators.rst:2
+#: ../../source/logical_operators.rst:2 1e1d004a6e0f47eea91dbfaf9333b070
 msgid "Logical operators"
 msgstr "Logische Operatoren"
 
-# f311ca6659b4437e989dee0b026e81c5
-#: ../../../source/logical_operators.rst:5
+#: ../../source/logical_operators.rst:5 e819edb0b0c24c14b5824aaef4d1c727
 msgid "Introduction"
 msgstr "Einführung"
 
-# a64bdf21929b492493f49955995ab7bc
-#: ../../../source/logical_operators.rst:7
+#: ../../source/logical_operators.rst:7 101e0110973b42dd9f1e2330dca798aa
 msgid ""
-"Conditionals are a nice way to make decisions by asking if something equals "
-"*True* or not. But often one condition is not enough. We may want to take "
-"the opposite of our result. Or for instance if we want to make a decision "
-"upon ``turtle.xcor()`` and ``turtle.ycor()`` we have to combine them. This "
-"can be done with logical operators."
-msgstr "Verzweigungen sind ein guter Weg um im Programm Entscheidungen zu treffen, indem geprüft wird ob etwas *True* ist oder nicht. Aber häufig reicht eine Bedingung allein nicht aus. Vielleicht möchtest Du auch das Gegenteil Deines Ergebnisses prüfen. Oder falls Du eine Entscheidung aufgrund von ``turtle.xcor()`` und ``turtle.ycor()`` treffen möchtest, musst Du beide verknüpfen. Das kannst Du mit logischen Operatoren erreichen."
+"Conditionals are a nice way to make decisions by asking if something "
+"equals *True* or not. But often one condition is not enough. We may want "
+"to take the opposite of our result. Or for instance if we want to make a "
+"decision upon ``turtle.xcor()`` and ``turtle.ycor()`` we have to combine "
+"them. This can be done with logical operators."
+msgstr ""
+"Verzweigungen sind ein guter Weg um im Programm Entscheidungen zu "
+"treffen, indem geprüft wird ob etwas *True* ist oder nicht. Aber häufig "
+"reicht eine Bedingung allein nicht aus. Vielleicht möchtest Du auch das "
+"Gegenteil Deines Ergebnisses prüfen. Oder falls Du eine Entscheidung "
+"aufgrund von ``turtle.xcor()`` und ``turtle.ycor()`` treffen möchtest, "
+"musst Du beide verknüpfen. Das kannst Du mit logischen Operatoren "
+"erreichen."
 
-# 91aa730b80734d2486904a10e87f6973
-#: ../../../source/logical_operators.rst:14
-msgid "Negation of a statement"
+#: ../../source/logical_operators.rst:14 3586c5f211e5403194c7a6944cfe2f43
+#, fuzzy
+msgid "Negation of an expression"
 msgstr "Verneinung eines Ausdrucks"
 
-# 16dd9203364c46d3a5f8c59cd8891fb2
-#: ../../../source/logical_operators.rst:16
+#: ../../source/logical_operators.rst:16 0d82b1b8256049709f913caee5a15e6c
 msgid ""
 "If we want something to be *False* we can use ``not``. It is a logical "
 "operator::"
 msgstr "Wenn wir möchten, dass etwas *False* ist, können wir den logischen Operator ``not`` verwenden::"
 
-# 98497a179d5d4026bd2f78d00bef5db5
-# 13525c7015f848e89385f50b6344f0e5
-#: ../../../source/logical_operators.rst:26
-#: ../../../source/logical_operators.rst:66
+#: ../../source/logical_operators.rst:26 ../../source/logical_operators.rst:66
+#: 21ef3859d5fb46df8e86d9079740ff4a 758ef8283f804035b3367affe6d4cdd8
 msgid "Exercise"
 msgstr "Übung"
 
-# 35d690f787ac4b7a94541491e7069e38
-#: ../../../source/logical_operators.rst:28
+#: ../../source/logical_operators.rst:28 2d492357453d48e88f73543c2173b205
 msgid ""
 "The turtle gives us a useful function to know if it is drawing or not: "
-"``turtle.isdown()``.  This function returns *True* if the turtle is drawing."
-" As we have seen earlier, the function ``turtle.penup()`` and "
+"``turtle.isdown()``.  This function returns *True* if the turtle is "
+"drawing. As we have seen earlier, the function ``turtle.penup()`` and "
 "``turtle.pendown()`` toggle between drawing while moving, or just moving "
 "without a trace."
 msgstr "Die Schildkröte enthält eine nützliche Funktion die sagt ob grade gezeichnet wird oder nicht; ``turtle.isdown()``. Diese Funktion liefert *True* falls die Schildkröte im Zeichenmodus ist. Wie wir bereits gesehen haben, schalten die Funktionen ``turtle.penup()`` und ``turtle.pendown()`` zwischen dem Modus zum Zeichnen beim Bewegen und dem Bewegungsmodus ohne Zeichnen hin und her."
 
-# 3d050f537f894d0092f7bc4ebb7aecc0
-#: ../../../source/logical_operators.rst:33
+#: ../../source/logical_operators.rst:33 6e31af390d0949bfbe8eb9e06ff0deea
 msgid "Can we write a function that only goes forward if the pen is up?"
 msgstr "Können wir eine Funktion schreiben die nur vorwärts geht falls die Schildkröte nicht im Zeichenmodus ist?"
 
-# 8ec37a98bbce4ccd9ce82d3d6657f779
-# 79c8613a80fb446d937f63207d57126b
-#: ../../../source/logical_operators.rst:38
-#: ../../../source/logical_operators.rst:75
+#: ../../source/logical_operators.rst:38 ../../source/logical_operators.rst:75
+#: 9b434352a4ee4ead95b2fe14bf25068c b56f0ff0506344b5accf1653bc164b20
 msgid "Solution"
 msgstr "Lösung"
 
-# 479b73f64ea14a6984e626cfb3c1b620
-#: ../../../source/logical_operators.rst:48
+#: ../../source/logical_operators.rst:48 2937031eca124b9982862bd43ed34066
 msgid "This and that or something else"
 msgstr "Dies und jenes oder etwas anderes"
 
-# d77af2e96f3840fe90850c25a0981881
-#: ../../../source/logical_operators.rst:50
+#: ../../source/logical_operators.rst:50 186892671db14e6abdcb0a80f78edb7d
 msgid ""
 "Two easy to understand operators are ``and`` and ``or``. They do exactly "
 "what they sound like:::"
 msgstr "Zwei einfach zu verstehende Operatoren sind ``and`` und ``or``. Sie tun genau das wonach sie sich anhören:::"
 
-# a1e51836541b45ea81132528be3d7323
-#: ../../../source/logical_operators.rst:62
+#: ../../source/logical_operators.rst:62 efcada67ce224f69a3c79efe01e74f0e
 msgid ""
-"You are not restricted to one logical operator. You can combine as may as "
-"you want."
+"You are not restricted to one logical operator. You can combine as may as"
+" you want."
 msgstr "Du bist nicht darauf angewiesen nur einen logischen Operator zu verwenden. Du kannst so viele miteinander kombinieren wie Du möchtest."
 
-# 8b46de8719184531b8b89b8a50b410d8
-#: ../../../source/logical_operators.rst:68
+#: ../../source/logical_operators.rst:68 5f18b0f56e684208a63bce676c496cba
 msgid ""
-"Earlier we put the turtle in a circular prison. This time let's make it a "
-"box. If the turtle goes more than 100 in the X *or* Y axis then we turn the "
-"turtle back around to the center."
+"Earlier we put the turtle in a circular prison. This time let's make it a"
+" box. If the turtle goes more than 100 in the X *or* Y axis then we turn "
+"the turtle back around to the center."
 msgstr "Weiter oben haben wir die Schildkröte in einem kreisförmigen Gefängnis eingesperrt. Diesmal werden wir ein Quadrat dazu verwenden. Falls die Schildkröte sich mehr als 100 Einheiten entlang der x- *oder* y-Achse vom Mittelpunkt entfernt, drehen wir sie zurück zur Mitte um."
+

@@ -6,7 +6,8 @@ bin
 clear
 include
 lib
-_build
+_build/
+build/
 source/locale/*/*/*.mo
 source/_locales/*/*/*.mo
 .transifexrc
