@@ -58,6 +58,14 @@ courses on programming around!
 .. _CodeAcademy: http://www.codecademy.com/ 
 
 
+What you'll need at home
+========================
+
+You can also install `Thonny`_ on your home computer.
+
+.. _Thonny:
+   https://thonny.org/
+
 What to do with Python
 ======================
 
