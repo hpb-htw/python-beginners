@@ -85,7 +85,7 @@ tilted squares program? If you change the program to use a function, is it easie
 to experiment with?
 
 .. admonition:: Solution
-   :collapsible: closed
+    :collapsible: closed
 
     .. code-block:: python
 
@@ -137,7 +137,7 @@ Give it a good go!
 
 
 .. admonition:: Solution
-   :collapsible: closed
+    :collapsible: closed
 
     .. code-block:: python
 

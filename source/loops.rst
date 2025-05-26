@@ -79,7 +79,7 @@ use ``turtle.pendown()``.
 .. image:: /images/dashed.png
 
 .. admonition:: Solution
-   :collapsible: closed
+    :collapsible: closed
 
     .. code-block:: python
 
@@ -131,7 +131,7 @@ repeated lines of code. Can you write out a square drawing program in fewer
 lines by utilizing loops?
 
 .. admonition:: Solution
-   :collapsible: closed
+    :collapsible: closed
 
     .. code-block:: python
 

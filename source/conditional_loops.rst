@@ -60,7 +60,7 @@ It's a bit of a stretch but keep at it! Don't be afraid to talk it out
 with a coach or another student.
 
 .. admonition:: Solution
-   :collapsible: closed
+    :collapsible: closed
 
     .. code-block:: python
 
@@ -98,7 +98,7 @@ respectively.
    forward by an increasing value.
 
 .. admonition:: Solution
-   :collapsible: closed
+    :collapsible: closed
 
     .. code-block:: python
 

@@ -190,7 +190,7 @@ Can you draw a rectangle too?
 .. image:: /images/rectangle.png
 
 .. admonition:: Solution
-   :collapsible: closed
+    :collapsible: closed
 
     .. code-block:: python
 
@@ -225,7 +225,7 @@ The picture shows three 20 degree turns. But you could try 20, 30 and 40 degree
 turns, for example.
 
 .. admonition:: Solution
-   :collapsible: closed
+    :collapsible: closed
 
     .. code-block:: python
 

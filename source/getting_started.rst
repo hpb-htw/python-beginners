@@ -69,7 +69,7 @@ some math commands of your own! What operations does python know? Get it
 to tell you what 239 and 588 added together, and then squared is.
 
 .. admonition:: Solution
-   :collapsible: closed
+    :collapsible: closed
 
     Here are  some ways you might have got the answer:
 

@@ -58,12 +58,6 @@ the ``input()`` function to ask the user for a direction to move
 the turtle. To keep things easy we will only accept two instructions:
 "left" and "right".
 
-.. remove this note box
-
-.. note::
-
-   Using Python 2? The ``input()`` function is called ``raw_input()``.
-
 It's much easier to define this as a function, like so::
 
   def move():

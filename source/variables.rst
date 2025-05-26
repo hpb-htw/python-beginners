@@ -49,7 +49,7 @@ If we have a variable called ``angle``, how could we use that to experiment
 much faster with our tilted squares program?
 
 .. admonition:: Solution
-   :collapsible: closed
+    :collapsible: closed
 
     .. code-block:: python
 

@@ -33,7 +33,7 @@ toggle between drawing while moving, or just moving without a trace.
 Can we write a function that only goes forward if the pen is up?
 
 .. admonition:: Solution
-   :collapsible: closed
+    :collapsible: closed
 
     .. code-block:: python
 
@@ -68,7 +68,7 @@ it a box. If the turtle goes more than 100 in the X *or* Y axis then
 we turn the turtle back around to the center.
 
 .. admonition:: Solution
-   :collapsible: closed
+    :collapsible: closed
 
     .. code-block:: python
 

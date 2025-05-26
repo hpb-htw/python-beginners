@@ -8,8 +8,8 @@ from sys import stderr
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = u'Introduction to Programming with Python'
-copyright = u'2012–2025, OpenTechSchool and contributors'
-author = 'OpenTechSchool and contributors'
+copyright = u'2012–2025, OpenTechSchool & contributors'
+author = 'OpenTechSchool & contributors'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -31,6 +31,14 @@ gettext_uuid = True
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 #html_theme = 'alabaster'
+html_theme = 'sphinx_book_theme'
+html_logo = "_static/python-logo-only.svg"
+html_title = project
+html_theme_options = {
+    "use_download_button": False,
+}
+
+"""
 html_theme = 'sphinx_nefertiti'
 html_static_path = ['_static']
 html_style = ["custom.css"]
@@ -38,6 +46,7 @@ html_theme_options = {
     "pygments_light_style": "default",
     "pygments_dark_style": "monokai",
 }
+"""
 
 # own directive
 from docutils.parsers import rst
