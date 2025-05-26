@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Introduction to Programming with Python \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-26 12:02+0200\n"
+"POT-Creation-Date: 2025-05-26 22:23+0200\n"
 "PO-Revision-Date: 2014-06-09 01:05+0000\n"
 "Last-Translator: Matthew Iversen <matthew@opentechschool.org>\n"
 "Language: de\n"
@@ -58,18 +58,20 @@ msgid ""
 msgstr ""
 "Python ist praktisch einfach ein weiteres Programm auf Deinem Computer. "
 "Zuerst werden wir lernen Python zu benutzen und mit ihm zu interagieren. "
-"Es gibt mehrere Wege das zu tun; der erste ist mit dem Python Interpreter"
-" über die Textkonsole Deines **Betriebssystems** zu interagieren."
+"Die erste ist die Interaktion mit dem Python-Interpreter. Wir verwenden "
+"in diesem Kurs das Programm Thonny, um mit dem Python-Interpreter zu "
+"interagieren. Um das Programm Thonny zu starten, klicke einfach auf das "
+"Thonny-Symbol auf dem Desktop-Bildschirm."
 
-#: ../../source/getting_started.rst:23 529d0658b21e443f9db9f08100786c6c
+#: ../../source/getting_started.rst:26 529d0658b21e443f9db9f08100786c6c
 msgid "Using Python"
 msgstr "Python verwenden"
 
-#: ../../source/getting_started.rst:28 ed58d47dee47440c81c1f6a6d7bc1e8e
+#: ../../source/getting_started.rst:31 ed58d47dee47440c81c1f6a6d7bc1e8e
 msgid "Interacting With Python"
 msgstr "Mit Python interagieren"
 
-#: ../../source/getting_started.rst:30 2b6c13b8d176498abadf000357b832b7
+#: ../../source/getting_started.rst:33 2b6c13b8d176498abadf000357b832b7
 msgid ""
 "After Thonny opens, it will show you a Python Shell with some contextual "
 "information similar to this::"
@@ -77,29 +79,34 @@ msgstr ""
 "Nach dem Öffnen von Thonny wird Dir eine Python-Shell mit einigen "
 "Kontextinformationen ähnlich dieser angezeigt::"
 
-#: ../../source/getting_started.rst:38 864eaaa52a004b9cb9f48a3a72b4f4fb
+#: ../../source/getting_started.rst:43 864eaaa52a004b9cb9f48a3a72b4f4fb
 msgid ""
 "The prompt ``>>>`` on the last line indicates that you are now in an "
-"interactive Python interpeter session, also called the \"Python shell\". "
-"**This is different from the normal terminal command prompt!**"
+"interactive Python interpreter session, also called the \"Python shell\"."
+" **This is different from the normal terminal command prompt!**"
 msgstr ""
 "Der Prompt ``>>>`` in der letzten Zeile signalisiert dass Du Dich nun in "
 "der interaktiven Python Konsole befindet, auch „Python Shell“ genannt. "
 "**Diese Konsole ist etwas anderes als das normale "
 "Kommandozeilenterminal!**"
 
-#: ../../source/getting_started.rst:42 4d0c5068e5fe44529c946c45c9e215d8
+#: ../../source/getting_started.rst:47 4d0c5068e5fe44529c946c45c9e215d8
 msgid "You can now enter some code for python to run. Try::"
-msgstr "TRANSLATION TRANSLATION TRANSLATION TRANSLATION TRANSLATION::"
+msgstr ""
+"Du kannst nun Code eingeben, den Python ausführen soll. Versuche "
+"Folgendes::"
 
-#: ../../source/getting_started.rst:46 857839052d8d4dc9bbc5e1fe88a98fad
+#: ../../source/getting_started.rst:51 857839052d8d4dc9bbc5e1fe88a98fad
 msgid ""
 "Press :kbd:`⏎` and see what happens. After showing the results, Python "
 "will bring you back to the interactive prompt, where you could enter "
 "another command:"
-msgstr "TRANSLATION TRANSLATION TRANSLATION TRANSLATION TRANSLATION:"
+msgstr ""
+"Drücke :kbd:`⏎` und sieh, was passiert. Nachdem die Ergebnisse angezeigt "
+"wurden, bringt dich Python zurück zur interaktiven Eingabeaufforderung, "
+"wo du einen weiteren Befehl eingeben kannst."
 
-#: ../../source/getting_started.rst:55 113f0831e4cb4766b0beac6b27022d39
+#: ../../source/getting_started.rst:60 113f0831e4cb4766b0beac6b27022d39
 msgid ""
 "An extremely useful command is ``help()``, which enters a help "
 "functionality to explore all the stuff python lets you do, right from the"
@@ -111,7 +118,7 @@ msgstr ""
 "direkt im Interpreter. Drücke :kbd:`q` um das Hilfefenster wieder zu "
 "schließen."
 
-#: ../../source/getting_started.rst:59 16061e6d33d7433eae9414d9ace5165b
+#: ../../source/getting_started.rst:64 16061e6d33d7433eae9414d9ace5165b
 msgid ""
 "To leave the interactive shell and go back to the console (the *system* "
 "shell), press :kbd:`Ctrl-Z` and then :kbd:`⏎` on Windows, or "
@@ -122,35 +129,50 @@ msgstr ""
 "unter Windows, oder :kbd:`Ctrl-D` unter OS X oder Linux. Alternativ "
 "kannst Du auch den Python-Befehl ``exit()`` ausführen."
 
-#: ../../source/getting_started.rst:65 bab2f1825b474056aeb561c86aded44c
+#: ../../source/getting_started.rst:70 ../../source/getting_started.rst:93
+#: 412b4aa8314d4c3e839953f8baeac257 bab2f1825b474056aeb561c86aded44c
 msgid "Exercise"
 msgstr "Aufgabe"
 
-#: ../../source/getting_started.rst:67 ccf2e40b97894e339e2f0d437f05f396
+#: ../../source/getting_started.rst:72 ccf2e40b97894e339e2f0d437f05f396
 msgid ""
 "Just above we demonstrated entering a command to figure out some math. "
 "Try some math commands of your own! What operations does python know? Get"
 " it to tell you what 239 and 588 added together, and then squared is."
-msgstr "Oben haben wir die Eingabe eines Befehls demonstriert, um mathematische Berechnungen durchzuführen. "
-"Probiere selbst ein paar mathematische Befehle aus! Welche Rechenoperationen beherrscht Python? "
-"Zum Beispiel: was 239 und 588 addiert und dann quadriert ergibt."
+msgstr ""
+"Oben haben wir die Eingabe eines Befehls demonstriert, wie mathematische "
+"Berechnungen ausgeführt wird. Probiere selbst ein paar mathematische "
+"Befehle aus! Welche Rechenoperationen beherrscht Python? Zum Beispiel: "
+"was 239 und 588 addiert und dann quadriert ergibt."
 
-#: ../../source/getting_started.rst:71 58093f3f907b40299a717793f2320c39
+#: ../../source/getting_started.rst:76 58093f3f907b40299a717793f2320c39
 msgid "Solution"
 msgstr "Lösung"
 
-#: ../../source/getting_started.rst:74 3459d781f02142faaa50f2b90ca3cdc9
+#: ../../source/getting_started.rst:79 3459d781f02142faaa50f2b90ca3cdc9
 msgid "Here are  some ways you might have got the answer:"
 msgstr ""
-"TRANSLATION TRANSLATION TRANSLATION TRANSLATION TRANSLATION TRANSLATION TRANSLATION"
-"TRANSLATION TRANSLATION::"
+"Hier sind einige Möglichkeiten, wie Du die Antwort erhalten haben "
+"könntest:"
+
+#: ../../source/getting_started.rst:95 c1394ee7731c4c1bbb2d4e77953d77a6
+msgid ""
+"Python uses a dot (`.`) to separate the integer part and decimal part of "
+"a decimal number. For example :math:`5,7` is written in Python as "
+"``5.7``."
+msgstr "Python verwendet einen Punkt (.) zur Trennung des ganzzahligen Teils und des Dezimalteils einer Dezimalzahl. "
+"Zum Beispiel wird :math:`5,7` in Python als ``5.7`` geschrieben. "
+
+#: ../../source/getting_started.rst:98 43e26217f7a74fdcaac4bc49ed8cd1e9
+msgid "How to let python calculate :math:`1,3 - 5,6`?"
+msgstr "Wie bringt man Python dazu, :math:`1,3 - 5,6` zu berechnen?"
 
 # 6a91d5ee8cdc476186d9ace3c14c787c
-#: ../../source/getting_started.rst:88 95d830bdf8344c27a6ae9276512fe675
+#: ../../source/getting_started.rst:102 95d830bdf8344c27a6ae9276512fe675
 msgid "Running Python files"
 msgstr "Pythonprogramme ausführen"
 
-#: ../../source/getting_started.rst:92 45dbf1fce37d4d2b9d63346f196f60fe
+#: ../../source/getting_started.rst:106 45dbf1fce37d4d2b9d63346f196f60fe
 msgid ""
 "When you have a lot of python code to run, you will want to save it into "
 "a file, so for instance, you can modify small parts of it (fix a bug) and"
@@ -159,34 +181,40 @@ msgid ""
 "open the file name in :program:`Thonny` program. It will let "
 ":program:`python` execute that file's code."
 msgstr ""
-"Falls du viel Pythonquelltext auszuführen hast wirst du ihn in eine Datei"
-" speichern wollen damit du zum Beispiel kleine Stücke verändern kannst "
-"(einen Fehler beheben) und es nochmal ausführen kannst ohne den Rest "
+"Falls Du viel Pythonquelltext auszuführen hast, wirst Du ihn in eine Datei"
+" speichern wollen damit Du zum Beispiel kleine Stücke verändern kannst "
+"(einen Fehler beheben) und es nochmal ausführen kannst, ohne den Rest "
 "wieder und wieder einzutippen. Stattdessen kannst du deinen Quelltext in "
 "eine Datei speichern und den Dateinamen an das :program:`python`\\ "
 "-Programm liefern. Es wird dann diese Datei ausführen statt den "
 "interaktiven Interpreter auszuführen."
 
-#: ../../source/getting_started.rst:99 cd2d8ce74da243e4bbcd6aeadf020e3e
+#: ../../source/getting_started.rst:113 cd2d8ce74da243e4bbcd6aeadf020e3e
 msgid ""
 "**Let's try that!**  Create a file :file:`hello.py` in :program:`Thonny` "
 "and write the print command from above. Now save that file. To run this "
 "file with python inside :program:`Thonny`, just click the :guilabel:`Run`"
-" Button (the green circle with white triangle (▶) inside). Alternatively "
-"you can also press the :kbd:`F5` key."
+" Button (the green circle with white triangle (▶) inside). Alternatively,"
+" you can also press the :kbd:`F5` key."
 msgstr ""
-"TRANSLATION TRANSLATION TRANSLATION TRANSLATION TRANSLATION TRANSLATION TRANSLATION"
-"TRANSLATION TRANSLATION::"
+"**Probieren wir es aus!** Erstell die Datei :file:`hello.py` in Thonny "
+"und schreib den oben beschriebenen ``print(\"Hello world\")``-Befehl hinein. Speichere die "
+"Datei anschließend. Um diese Datei mit Python in Thonny auszuführen, "
+"klicke einfach auf die Schaltfläche „Ausführen“ (den grünen Kreis mit dem"
+" weißen Dreieck (▶) darin). Alternativ kannst Du auch die Taste :kbd:`F5`"
+" drücken."
 
-#: ../../source/getting_started.rst:103 c1cb884460eb41139292c7218d4d9b19
-msgid "When click ▶ now, the file is executed and you see the output as before."
-msgstr "TRANSLATION TRANSLATION TRANSLATION TRANSLATION TRANSLATION TRANSLATION."
+#: ../../source/getting_started.rst:117 c1cb884460eb41139292c7218d4d9b19
+msgid "When ▶ is clicked, the file is executed and you see the output as before."
+msgstr ""
+"Wenn Du auf ▶ klickst, wird die Datei ausgeführt und Du siehst die "
+"Ausgabe wie zuvor."
 
-#: ../../source/getting_started.rst:106 40a105f5fd824d88b8a6ddbece0126a1
+#: ../../source/getting_started.rst:120 40a105f5fd824d88b8a6ddbece0126a1
 msgid "And now we are all set and can get started with turtle!"
 msgstr "Wir sind jetzt startklar und können mit der Schildkröte anfangen!"
 
-#: ../../source/getting_started.rst:111 a174eb90f60a490c8999c90cc365cafe
+#: ../../source/getting_started.rst:125 a174eb90f60a490c8999c90cc365cafe
 msgid ""
 "When playing around with turtle, avoid naming your file :file:`turtle.py`"
 " --- rather use more appropriate names such as :file:`square.py` or "
@@ -199,4 +227,6 @@ msgstr ""
 ":file:`quadrat.py` oder :file:`rechteck.py`. Andernfalls wird Python "
 "jedesmal wenn Du den Namen ``turtle`` verwendest, *Deine* Datei anstatt "
 "dem Modul turtle verwenden."
+
+
 

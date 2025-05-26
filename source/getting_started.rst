@@ -18,6 +18,9 @@ the first one to learn is to interact with python's interpreter.
 We use the programm Thonny in this course to interact with the python' interpreter.
 To start the programm Thonny just click the Thonny Icon on Desktop Screen.
 
+.. image:: images/thonny/icon-192x192.png
+  :width: 64
+
 
 Using Python
 ============
@@ -29,14 +32,16 @@ Interacting With Python
 
 After Thonny opens, it will show you a Python Shell with some contextual information similar to this::
 
-    Python 3.13.3 (main, Apr  9 2025, 08:55:02) [GCC 11.4.0] on linux
-    Type "help", "copyright", "credits" or "license" for more information.
-    >>> 
+    Python 3.10.11 (C:\Users\vmuser\AppData\Local\Programs\Thonny\python.exe)
+    >>>
+
+.. image:: images/thonny/01-1-Screenshot_start.png
+  :width: 300
 
 .. note::
 
    The prompt ``>>>`` on the last line indicates that you are now in an
-   interactive Python interpeter session, also called the "Python shell".
+   interactive Python interpreter session, also called the "Python shell".
    **This is different from the normal terminal command prompt!**
 
 You can now enter some code for python to run. Try::
@@ -84,10 +89,19 @@ to tell you what 239 and 588 added together, and then squared is.
         >>> (239 + 588) ** 2
         683929
 
+Exercise
+--------
+
+Python uses a dot (`.`) to separate the integer part and decimal part of a decimal number.
+For example :math:`5,7` is written in Python as ``5.7``.
+
+How to let python calculate :math:`1,3 - 5,6`?
+
+
 Running Python files
 --------------------
 
-.. rewrite this section to use thonny
+
 
 When you have a lot of python code to run, you will want to save it into 
 a file, so for instance, you can modify small parts of it (fix a bug) and 
@@ -98,10 +112,12 @@ It will let :program:`python` execute that file's code.
 
 **Let's try that!**  Create a file :file:`hello.py` in :program:`Thonny` and write the print command from above.
 Now save that file. To run this file with python inside :program:`Thonny`, just click the :guilabel:`Run` Button (the green circle with white triangle (▶) inside).
-Alternatively you can also press the :kbd:`F5` key.
+Alternatively, you can also press the :kbd:`F5` key.
 
-When click ▶ now, the file is executed and you see the output as before.
+When ▶ is clicked, the file is executed and you see the output as before.
 
+.. image:: images/thonny/01-2-Screenshot_hello.png
+  :width: 500
 
 And now we are all set and can get started with turtle!
 
